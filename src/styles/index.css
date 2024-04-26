@@ -1,3 +1,27 @@
 /* 
     General Styles
-*/
+    */
+
+.glass {
+  background-color: rgb(255 255 255 /13%);
+  backdrop-filter: blur(20px);
+  box-shadow: 5px 5px 5px rgba(6, 6, 6, 0.5);
+  
+}
+
+.center{
+  display: flex; /* O bien display: inline-flex */
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/012/105/210/non_2x/abstract-technology-futuristic-digital-square-pattern-with-lighting-glowing-particles-square-elements-on-dark-purple-background-free-vector.jpg");
+  background-position: center center;
+  background-size:auto;
+  background-attachment: fixed;
+}
+
+.pointers{
+  cursor: pointer;
+}
